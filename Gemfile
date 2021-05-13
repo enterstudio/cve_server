@@ -4,13 +4,13 @@ gem 'sinatra', '~> 2.0'
 gem 'sinatra-contrib', '~> 2.0'
 gem 'nokogiri', '~> 1.8'
 gem 'mongo', '~> 2.1.2'
-gem 'puma', '~> 3.10.0'
+gem 'puma', '~> 4.3.8'
 
 group :production do
   gem 'capistrano', '~> 3.9.0'
   gem 'capistrano-bundler', '~> 1.2.0'
   gem 'capistrano-rvm', '~> 0.1.2'
-  gem 'capistrano3-puma', '~> 3.1.1'
+  gem 'capistrano3-puma', '~> 4.0.0'
 end
 
 group :development, :test do
